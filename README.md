@@ -63,14 +63,14 @@ RegisterNumber:  212222230068
 
 ## Output:
 
-HALF ADDER:
+HALF SUBTRACTOR:
 ![Experiment--03-Half-Subtractor-and-Full-subtractor](hs1.jpg)
 
 ![Experiment--03-Half-Subtractor-and-Full-subtractor](hs2.jpg)
 
 
 
-FULL ADDER:
+FULL SUBTRACTOR:
 ![Experiment--03-Half-Subtractor-and-Full-subtractor](fs1.jpg)
 
 ![Experiment--03-Half-Subtractor-and-Full-subtractor](fs2.jpg)
