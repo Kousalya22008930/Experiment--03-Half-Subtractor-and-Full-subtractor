@@ -35,6 +35,7 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Program:
 /*
+```
 HALF SUBRACTOR:
 module hh(a,b,d,bo);
 input a,b;
@@ -44,19 +45,20 @@ xor (d, a,b);
 not(x,a);
 and(bo,x,b);
 endmodule
+
 FULL SUBRACTOR:
 module hh (a,b,bin,diff,bout);
 input a,b,bin;
 output diff,bout;
-wire p,q,r,s,t;
-xor(p,a,b);
+wire p,q,r,t;
 not(q,a);
 and(r,q,b);
+and(t,q,bin);
+xor(p,a,b);
 xor(diff,p,bin);
-not(s,p);
-and(t,s,bin);
-or(bout,t,r);
+or(bout,r,t);
 endmodule
+```
 Developed by: KOUSALYA A.
 RegisterNumber:  212222230068
 */
